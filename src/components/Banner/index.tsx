@@ -12,6 +12,7 @@ export function Banner() {
                     href='https://www.linkedin.com/in/melqui-sodre/' 
                     target='_blank'
                     className={styles.buttonLinkedin}
+                    rel="noreferrer"
                 >
                     Linkedin
                 </a>
@@ -19,6 +20,7 @@ export function Banner() {
                     href='https://github.com/melquisedeque-magalhaes' 
                     target='_blank' 
                     className={styles.buttonGithub}
+                    rel="noreferrer"
                 >
                     Github
                 </a>
