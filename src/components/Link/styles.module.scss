@@ -1,0 +1,25 @@
+.link {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    transition: filter 0.2s;
+    font-family: 'Roboto';
+
+    & + & {
+        padding-left: 58px;
+    }
+
+    @media(max-width: 850px){        
+        & + & {
+            padding-top: 16px;
+            padding-left: 0px;
+        }
+    }
+
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+}
+

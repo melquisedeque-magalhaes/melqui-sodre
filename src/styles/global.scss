@@ -7,6 +7,11 @@
 body {
     width: 100vw;
     height: 100vh;
+    scroll-behavior: smooth;
+
+    &:target {
+        scroll-margin-top: .8em;
+    }
 }
 
 button {
