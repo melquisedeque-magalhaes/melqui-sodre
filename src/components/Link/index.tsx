@@ -1,13 +1,13 @@
-import { ReactNode } from "react";
-import styles from './styles.module.scss'
+import { ReactNode } from 'react';
+import styles from './styles.module.scss';
 
 interface LinkProps {
     children: ReactNode;
-    link: string;
+    href: string;
 }
 
-export function Link({ children, link }: LinkProps ) {
-    return(
-        <a className={styles.link} href={link}>{children}</a>
-    )
+export function Link({ children, href }: LinkProps) {
+  return (
+    <a className={styles.link} href={href}>{children}</a>
+  );
 }
