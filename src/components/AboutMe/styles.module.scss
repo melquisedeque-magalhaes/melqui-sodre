@@ -10,10 +10,9 @@
     align-items: center;
     justify-content: center;
 
-    @media(max-width: 800px){
+    @media (max-width: 800px) {
         flex-direction: column;
     }
-    
 }
 
 .content {
@@ -25,22 +24,22 @@
     width: 100%;
 
     h1 {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-weight: bold;
         font-size: 48px;
         line-height: 42px;
 
-        color: #3A3A3A;
+        color: #3a3a3a;
         margin-bottom: 32px;
 
-        @media(max-width: 600px){
+        @media (max-width: 600px) {
             margin-top: 32px;
             font-size: 36px;
         }
     }
 
     p {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-weight: 300;
         font-size: 18px;
         line-height: 30px;
@@ -49,7 +48,7 @@
         color: #565656;
         max-width: 562px;
 
-        @media(max-width: 600px){
+        @media (max-width: 600px) {
             max-width: 348px;
             font-size: 16px;
         }

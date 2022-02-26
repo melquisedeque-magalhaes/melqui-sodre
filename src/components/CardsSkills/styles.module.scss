@@ -1,0 +1,35 @@
+.container {
+    width: 400px;
+    height: 300px;
+
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(86, 86, 86, 0.15);
+    border-radius: 20px;
+
+    .image {
+        display: inline-block;
+        margin-top: 47px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 17px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    p {
+        width: 300px;
+        display: inline-block;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 18px;
+    }
+}
