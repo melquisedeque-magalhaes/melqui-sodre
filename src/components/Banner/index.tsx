@@ -8,7 +8,6 @@ export function Banner() {
 
         <h2>
           Olá, eu sou
-          {' '}
           <span> Melqui Sodré </span>
         </h2>
         <h1>DESENVOLVEDOR FULL STACK</h1>
