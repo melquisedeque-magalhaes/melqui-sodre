@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import avatar from '../../../public/Melqui.png';
 
 import styles from './styles.module.scss';
 
@@ -8,7 +7,7 @@ export function AboutMe() {
     <div id="sobre-mim" className={styles.container}>
 
       <div className={styles.content}>
-        <Image alt="Melqui Sodré" src={avatar} />
+        <Image alt="Melqui Sodré" src="/Melqui.png" layout='fill' />
       </div>
 
       <div className={styles.content}>
