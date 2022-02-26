@@ -15,7 +15,7 @@ export function CardSkills({
 
     <div className={styles.container}>
 
-      <div className={styles.image}>
+      <div className={styles.containerImage}>
         <Image
           src={`/${srcImg}`}
           alt={altImg}
