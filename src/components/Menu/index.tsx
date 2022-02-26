@@ -1,12 +1,12 @@
-import { useBreakpointValue } from '@chakra-ui/react';
-import { Spin as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
+import { Spin as Hamburger } from 'hamburger-react';
+import { useMediaQuery } from 'react-responsive';
 
 import { Link } from '../Link';
 import styles from './styles.module.scss';
 
 export function Menu() {
-  const isWideVersion = useBreakpointValue({ base: false, xl: true, lg: true });
+  const isWideVersion = useMediaQuery({ query: '(min-width: 1280px)' });
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
