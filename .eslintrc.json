@@ -19,7 +19,8 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "react-hooks"
+        "react-hooks",
+        "jest"
     ],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
@@ -40,5 +41,12 @@
         "import/resolver": {
           "typescript": {}
         }
+    },
+    "globals":{
+        "jest": true,
+        "sessionStorage": true,
+        "window": true,
+        "navigator": true,
+        "localStorage": true
     }
 }
