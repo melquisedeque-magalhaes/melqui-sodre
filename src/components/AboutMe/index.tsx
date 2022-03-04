@@ -7,7 +7,7 @@ export function AboutMe() {
     <div id="sobre-mim" className={styles.container}>
 
       <div className={styles.content}>
-        <Image alt="Melqui Sodré" src="/Melqui.png" layout='fill' />
+        <Image alt="Melqui Sodré" src="/Melqui.png" width={300} height={310} />
       </div>
 
       <div className={styles.content}>
