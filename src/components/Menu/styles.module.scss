@@ -11,8 +11,8 @@
 .menuMobile {
     display: none;
     width: 100%;
-    height: 50px;  
-    
+    height: 50px;
+
     background: #111111;
 
     @media(max-width: 1000px){
@@ -29,19 +29,4 @@
 
     width: 100%;
     height: 50px;
-}
-
-.menuMobileFull {
-    display: fixed;
-    background: #111111;
-    z-index: 10;
-    height: 100vh;
-}
-
-.navigator {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
 }
