@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import { myInfos } from "../../constants/myInfos"
 
 export function AboutMe() {
 
@@ -9,8 +10,7 @@ export function AboutMe() {
                 <h1>Sobre mim</h1>
 
                 <p>
-                Sempre aprendendo as melhores tecnologias, para continuar evoluindo.
-                Estudando Javascript e Typescript focado nos frameworks ReactJs e NodeJs e React Native.
+                    {myInfos.aboutMe.text}
                 </p>
             </div>
 

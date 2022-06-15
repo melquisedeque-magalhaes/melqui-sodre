@@ -1,5 +1,7 @@
 import { CardSkills } from '../CardsSkills';
 
+import { myInfos } from '../../constants/myInfos'
+
 import styles from './styles.module.scss';
 
 export function Skills() {
@@ -10,27 +12,18 @@ export function Skills() {
 
         <div className={styles.content}>
 
+                {
+                    myInfos.techs.map(tech => (
+                        <CardSkills
+                            srcImg={tech.logo}
+                            altImg={tech.alt}
+                            titleCard={tech.title}
+                            descriptionCard={tech.text}
+                        />
+                    ))
+                }
 
-                <CardSkills
-                    srcImg="html.png"
-                    altImg="imagem logo HTML"
-                    titleCard="HTML"
-                    descriptionCard="HTML é uma linguagem de marcação utizada na construção de página web"
-                />
 
-                <CardSkills
-                    srcImg="css.png"
-                    altImg="imagem logo CSS"
-                    titleCard="CSS"
-                    descriptionCard="HTML é uma linguagem de marcação utizada na construção de página web"
-                />
-
-                <CardSkills
-                    srcImg="html.png"
-                    altImg="imagem logo HTML"
-                    titleCard="HTML"
-                    descriptionCard="HTML é uma linguagem de marcação utizada na construção de página web"
-                />
 
         </div>
     </div>
