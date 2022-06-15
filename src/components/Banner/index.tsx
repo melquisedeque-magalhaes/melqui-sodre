@@ -10,7 +10,7 @@ export function Banner() {
           Olá, eu sou
           <span> Melqui Sodré </span>
         </h2>
-        <h1>DESENVOLVEDOR FULL STACK</h1>
+        <h1>DESENVOLVEDOR FRONT-END</h1>
 
         <div>
           <a

@@ -2,44 +2,43 @@
     width: 400px;
     height: 300px;
 
-    display: inline-block;
+    display: flex;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 
     background: #ffffff;
     box-shadow: 0px 0px 20px rgba(86, 86, 86, 0.15);
     border-radius: 20px;
+    padding: 0px 18px;
 
-    @media screen and (max-width: 834px) {
+    @media(max-width: 834px) {
         width: 350px;
         height: 300px;
+        padding: 0px 32px;
     }
 
-    @media screen and (max-width: 414px) {
-        width: 348px;
-        height: 300px;
+    @media(max-width: 600px) {
+        padding: 0px 24px;
     }
 
     .containerImage {
-        display: inline-block;
-        margin-top: 47px;
+        margin-top: 46px;
         margin-bottom: 20px;
     }
 
-    h2 {
-        width: 100%;
-        display: inline-block;
-        margin-bottom: 17px;
+    > h2 {
+        margin-bottom: 16px;
         font-weight: bold;
         font-size: 20px;
         font-family: "Roboto";
     }
 
-    p {
-        width: 300px;
-        display: inline-block;
+    > p {
         text-align: center;
         font-size: 18px;
         font-family: "Roboto";
+        line-height: 25px;
+        color: #3A3A3A;
     }
 }

@@ -5,11 +5,11 @@ import { Skills } from '../components/Skills';
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Menu />
       <Banner />
       <AboutMe />
       <Skills />
-    </>
+    </main>
   );
 }
