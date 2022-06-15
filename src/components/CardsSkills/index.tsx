@@ -25,7 +25,7 @@ export function CardSkills({
 
       </div>
 
-      <h1>{titleCard}</h1>
+      <h2>{titleCard}</h2>
 
       <p>{descriptionCard}</p>
 

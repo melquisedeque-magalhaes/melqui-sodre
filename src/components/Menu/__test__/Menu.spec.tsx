@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
-import { Skills } from '../Skills'
+import { Menu } from '..';
 
-describe('[Component] - Skills', () => {
+describe('[Component] - Menu', () => {
     it('should be able render correctly', () => {
-        const { container} = render(<Skills />);
+        const { container} = render(<Menu />);
 
         expect(container).toBeDefined()
     });

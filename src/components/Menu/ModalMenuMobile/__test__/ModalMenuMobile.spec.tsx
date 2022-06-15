@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
-import { Skills } from '../Skills'
+import { WModalMenuMobile } from '..';
 
-describe('[Component] - Skills', () => {
+describe('[Component] - Menu', () => {
     it('should be able render correctly', () => {
-        const { container} = render(<Skills />);
+        const { container} = render(<ModalMenuMobile />);
 
         expect(container).toBeDefined()
     });
