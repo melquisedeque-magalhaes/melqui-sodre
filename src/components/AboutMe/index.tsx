@@ -16,7 +16,7 @@ export function AboutMe() {
 
             <div className={styles.contentImg}>
 
-                <img alt="Melqui Sodré" src="/Melqui.png"  />
+                <img alt="Melqui Sodré" src="/MelquiV2.jpeg"  />
 
             </div>
         </div>

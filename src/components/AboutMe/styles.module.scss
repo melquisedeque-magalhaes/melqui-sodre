@@ -69,6 +69,7 @@
     img {
         width: 416px;
         height: 422px;
+        border-radius: 50%;
 
         @media (max-width: 600px) {
             margin-top: 32px;
